@@ -16,7 +16,7 @@ A Python-based hand gesture recognition system that uses a webcam to capture han
 - Python 3.6+
 - OpenCV
 - MediaPipe
-- PyAutoGUI
+- RsAutoGUI
 - Screen Brightness Control
 
 ## Installation
@@ -92,5 +92,5 @@ python gesture_controller.py
 
 - [MediaPipe](https://mediapipe.dev/) by Google for hand landmark detection.
 - [OpenCV](https://opencv.org/) for image processing.
-- [PyAutoGUI](https://pyautogui.readthedocs.io/) for controlling the mouse and keyboard.
+- [RsAutoGUI](https://pyautogui.readthedocs.io/) for controlling the mouse and keyboard.
 - [Screen Brightness Control](https://github.com/Crozzers/screen-brightness-control) for adjusting screen brightness.
