@@ -1,6 +1,6 @@
 # Hand Gesture Controller
 
-A Python-based hand gesture recognition system that uses a webcam to capture hand movements and translates them into various system control commands, such as mouse movements, clicks, scrolls, volume control, and brightness adjustment. The system leverages OpenCV, MediaPipe, PyAutoGUI, and PyCaw libraries for computer vision and system control functionalities.
+A Python-based hand gesture recognition system that uses a webcam to capture hand movements and translates them into various system control commands, such as mouse movements, clicks, scrolls, volume control, and brightness adjustment. The system leverages OpenCV, MediaPipe, and PyAutoGUI libraries for computer vision and system control functionalities.
 
 ## Features
 
@@ -17,7 +17,6 @@ A Python-based hand gesture recognition system that uses a webcam to capture han
 - OpenCV
 - MediaPipe
 - PyAutoGUI
-- PyCaw
 - Screen Brightness Control
 
 ## Installation
@@ -94,5 +93,4 @@ python gesture_controller.py
 - [MediaPipe](https://mediapipe.dev/) by Google for hand landmark detection.
 - [OpenCV](https://opencv.org/) for image processing.
 - [PyAutoGUI](https://pyautogui.readthedocs.io/) for controlling the mouse and keyboard.
-- [PyCaw](https://github.com/AndreMiras/pycaw) for controlling system audio.
 - [Screen Brightness Control](https://github.com/Crozzers/screen-brightness-control) for adjusting screen brightness.
