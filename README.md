@@ -1,4 +1,4 @@
-# Hand Gesture Controller
+# 🖐Hand Gesture Controller
 
 A Python-based hand gesture recognition system that uses a webcam to capture hand movements and translates them into various system control commands, such as mouse movements, clicks, scrolls, volume control, and brightness adjustment. The system leverages OpenCV, MediaPipe, and PyAutoGUI libraries for computer vision and system control functionalities.
 
@@ -46,13 +46,6 @@ pip install -r requirements.txt
 ```bash
 python gesture_controller.py
 ```
-
-## Project Structure
-
-- `gesture_controller.py`: Main entry point of the program. Captures video frames, processes them, and handles gestures.
-- `hand_recog.py`: Contains the `HandRecog` class that converts MediaPipe landmarks to recognizable gestures.
-- `controller.py`: Contains the `Controller` class that executes commands according to detected gestures.
-- `requirements.txt`: List of dependencies.
 
 ## Usage
 
